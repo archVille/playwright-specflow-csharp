@@ -5,4 +5,6 @@
 
 winget install --id Microsoft.DotNet.SDK.7
 
-- Build the solution 
+- Build the solution
+
+- Run the simple test to search for a term
