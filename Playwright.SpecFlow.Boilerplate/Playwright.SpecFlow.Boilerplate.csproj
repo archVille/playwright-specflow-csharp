@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="src\Steps\SearchEngineSteps.cs~RF235dc5.TMP" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="TechTalk.SpecFlow" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+        <PackageReference Include="Microsoft.Playwright" Version="1.40.0" />
+        <PackageReference Include="SpecFlow" Version="3.9.74" />
+        <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
+        <PackageReference Include="nunit" Version="4.0.1" />
+    </ItemGroup>
+
+</Project>
